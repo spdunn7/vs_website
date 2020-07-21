@@ -43,7 +43,7 @@ img {
 /* ---- Navigation ---- */
 
 .vs-logo {
-  /* font-size: 1.35em; */
+  display: flex;
   width: 190px;
   height: auto;
 	margin: 0;
@@ -77,7 +77,6 @@ img {
 }
 
 .banner {
-  margin-top: 5px;
   margin-bottom: 48px;
 }
 
