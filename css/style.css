@@ -123,20 +123,18 @@ img {
 ==================================== */
 
 @media (min-width: 769px) {
+	
 	.main-header,
 	.row {
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-}
 
-@media (min-width: 769px) {
-
-	.main-header,
-	.main-nav {
+  .main-nav {
 		display: flex;
 	}
+
 	.main-header {
 		flex-direction: column;
 		align-items: center;
@@ -152,7 +150,3 @@ img {
 	}
 
 }
-
-/* ================================= 
-  ADDED
-==================================== */
