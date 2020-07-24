@@ -117,6 +117,12 @@ img {
   margin: 0 1%;
 }
 
+.player {
+	border: 0;
+	width: 350px;
+	height: 588px
+}
+
 
 /* ================================= 
   Media Queries
