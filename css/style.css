@@ -89,6 +89,13 @@ img {
 	padding-right: 1em;
 	padding-left: 1em;
 }
+
+.player-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
@@ -119,8 +126,10 @@ img {
 
 .player {
 	border: 0;
+	border-radius: 5px;
 	width: 350px;
-	height: 588px
+	height: 588px;
+	margin: 10px 10px;
 }
 
 
