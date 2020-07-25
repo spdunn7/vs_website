@@ -109,6 +109,25 @@ img {
   height: auto;
 }
 
+.player {
+	border: 0;
+	border-radius: 5px;
+	width: 350px;
+	height: 588px;
+	margin: 10px 10px;
+}
+
+.shows {
+	list-style: none;
+	width: 50%;
+	margin: auto;
+}
+
+.shows li {
+	border-bottom: 1px solid;
+	padding: 15px 10px;
+}
+
 .feat-img {
 	border-radius: 5px;
 }
@@ -124,12 +143,16 @@ img {
   margin: 0 1%;
 }
 
-.player {
-	border: 0;
-	border-radius: 5px;
-	width: 350px;
-	height: 588px;
-	margin: 10px 10px;
+/* ---- Pseudo Classes ---- */
+
+.shows li:nth-child(even) {
+	background: #f1eb21;
+	color: black;
+}
+
+.shows li:nth-child(odd) {
+	background: black;
+	color: #f1eb21;
 }
 
 
