@@ -128,10 +128,6 @@ img {
 	padding: 15px 10px;
 }
 
-.feat-img {
-	border-radius: 5px;
-}
-
 .footer-links {
 	display: flex;
 	flex-direction: row;
