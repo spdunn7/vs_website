@@ -109,6 +109,13 @@ img {
 	justify-content: center;
 }
 
+.bio {
+	display: flex;
+	flex-direction: column;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
@@ -283,18 +290,20 @@ img {
 
 @media (min-width: 769px) {
 	
-	.main-header {
+	.main-header,
+	.bulletin,
+	.bio {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+	.main-header,
+	.bio {
 		margin: 0 auto;
 	}
 
 	.main-nav {
 		flex-direction: row;
-	}
-
-  .main-header,
-	.bulletin {
-		width: 80%;
-		max-width: 1150px;
 	}
 
 }
