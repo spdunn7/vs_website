@@ -162,21 +162,7 @@ img {
 	display: none;
 }
 
-/* .plant-caption {
-	display: flex;
-	flex-basis: column wrap;
-	position: absolute;
-	justify-content: center;
-	align-items: center;
-	font-size: 4rem;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	color: white;
-	text-shadow: .15em .15em 0em black;
-} */
-
-.plant-carousel {
+.carousel {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -187,7 +173,8 @@ img {
 	overflow: hidden;
 }
 
-.plant-1, .plant-2, .plant-3 {
+.carousel-img {
+	border-radius: 5px;
 	width: 100%;
 	height: 30em; 
 	background-attachment: fixed;
