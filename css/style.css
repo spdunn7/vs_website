@@ -126,6 +126,9 @@ img {
 
 #vs-ep-cover {
 	border-radius: 5px;
+	max-width: 100%;
+	width: 50%;
+	height: auto;
 }
 
 .player {
