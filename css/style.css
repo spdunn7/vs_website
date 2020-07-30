@@ -86,7 +86,19 @@ img {
   margin-bottom: 48px;
 }
 
-.col {
+.bulletin-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bulletin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 48px;
 	padding-right: 1em;
 	padding-left: 1em;
 }
@@ -110,6 +122,10 @@ img {
 .painting {
   width: 100vw;
   height: auto;
+}
+
+#vs-ep-cover {
+	border-radius: 5px;
 }
 
 .player {
@@ -257,15 +273,18 @@ img {
 
 @media (min-width: 769px) {
 	
-	.main-header,
-	.row {
-		width: 80%;
+	.main-header {
 		margin: 0 auto;
-		max-width: 1150px;
 	}
 
-  .main-nav {
+	.main-nav {
 		flex-direction: row;
+	}
+
+  .main-header,
+	.bulletin {
+		width: 80%;
+		max-width: 1150px;
 	}
 
 }
