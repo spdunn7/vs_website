@@ -182,7 +182,8 @@ img {
 	object-fit: cover;
 }
 
-.prev, .next {
+.prev,
+.next {
 	position: absolute;
 	display: flex;
 	flex-direction: row;
@@ -194,16 +195,16 @@ img {
 
 .next {
 	right: 20px;
-	border-bottom: 6px solid #66aa77;
-	border-right: 6px solid #66aa77;
+	border-bottom: 6px solid #ef2935;
+	border-right: 6px solid #ef2935;
 	transform: rotate(-45deg);
 	transition: right 0.5s;
 }
 
 .prev {
 	left: 20px;
-	border-bottom: 6px solid #66aa77;
-	border-left: 6px solid #66aa77;
+	border-bottom: 6px solid #ef2935;
+	border-left: 6px solid #ef2935;
 	transform: rotate(45deg);
 	transition: left 0.5s;
 }
@@ -219,7 +220,7 @@ img {
 .dot {
 	width: 12px;
 	height: 12px;
-	background-color: blueviolet;
+	background-color: #ef2935;
 	border-radius: 50%;
 	margin: 0 4px;
 	opacity: 0.5;
