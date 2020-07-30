@@ -124,6 +124,13 @@ img {
   height: auto;
 }
 
+.bulletin a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 #vs-ep-cover {
 	border-radius: 5px;
 	max-width: 100%;
