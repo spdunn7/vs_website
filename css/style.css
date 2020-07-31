@@ -112,6 +112,8 @@ img {
 .bio {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding-right: 1em;
 	padding-left: 1em;
 	margin: 1em 2em 2.5em;
@@ -163,6 +165,30 @@ img {
 .shows li {
 	border-bottom: 1px solid;
 	padding: 15px 10px;
+}
+
+blockquote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+blockquote p {
+	padding: 15px;
+	background: #eee;
+	border-radius: 5px;
+	width: 60%;
+	height: auto;
+}
+
+blockquote p::before {
+	content: '\201C';
+}
+
+blockquote p::after {
+	content: '\201D';
 }
 
 .footer-links {
