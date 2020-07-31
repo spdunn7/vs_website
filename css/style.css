@@ -158,13 +158,15 @@ img {
 
 .shows {
 	list-style: none;
-	width: 50%;
+	width: 90%;
 	margin: 10px auto;
 }
 
 .shows li {
+	display: flex;
+	justify-content: space-between;
 	border-bottom: 1px solid;
-	padding: 15px 10px;
+	padding: 15px 20px;
 }
 
 blockquote {
@@ -212,6 +214,14 @@ blockquote p::after {
 .shows li:nth-child(odd) {
 	background: black;
 	color: #f1eb21;
+}
+
+.shows li:first-child {
+	border-radius: 5px 5px 0 0;
+}
+
+.shows li:last-child {
+	border-radius: 0 0 5px 5px;
 }
 
 /* ================================= 
@@ -331,6 +341,10 @@ blockquote p::after {
 		flex-direction: row;
 	}
 
+	.shows {
+		width: 70%;
+	}
+
 	.bio {
 		width: 70%;
 		max-width: 1150px;
@@ -344,6 +358,10 @@ blockquote p::after {
 	.main-header {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	.shows {
+		width: 50%;
 	}
 
 	.bio {
